@@ -81,9 +81,18 @@ Capturing groups are used to extract a specific part of a match and save it in a
 
 ### Bracket Expressions
 
-Bracket expressions, which are also known as character classes, match any single character from a set of characters. They are created using square brackets [ ], including any combination of characters, ranges, and predefined character classes. 
+BRACKET EXPRESSIONS, which are also known as CHARACTER CLASSES, match any single character from a set of characters. They are created using square brackets [ ], including any combination of characters, ranges, and predefined character classes. 
 
 ### Greedy and Lazy Match
+
+GREEDY and LAZY MATCHING refers to how regular expressions match patterns in text.
+Greedy matching is the default behavior, where the regular expression tries to match as much text as possible while still allowing the overall pattern to match. 
+
+EXAMPLE:  the regular expression /a.+c/ would match the entire string "abc123cdef", as it matches the "a" at the beginning, then greedily matches all of the characters up to the "c" at the end.
+Lazy matching, on the other hand, matches as little text as possible while still allowing the pattern to match. This is accomplished by appending a ? to the quantifier.
+
+EXAMPLE:  the regular expression /a.+?c/ would match only the substring "ABC", as it matches the "a" at the beginning, then lazily matches as few characters as possible until it reaches the "c" at the end.
+
 
 ### Boundaries
 
