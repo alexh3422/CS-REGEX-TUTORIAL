@@ -26,7 +26,13 @@ Regex (also known as Regular Expressions) can really come in handy when dealing 
 
 ### Anchors
 
+In Regex, ANCHORS are special characters that are used to match patterns at specific positions in the input string. The two most common ANCHORS are the caret " ^ " and the dollar sign " $ ". The caret matches the start of a string, and the dollar sign matches the end of a string. 
+
+EXAMPLE: the regex pattern "^hello" will match any string that starts with "hello", while the pattern "world$" will match any string that ends with "world". 
+
 ### Quantifiers
+
+
 
 ### OR Operator
 
