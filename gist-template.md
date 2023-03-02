@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# REGEX CHEAT SHEET/GUIDE
 
-Introductory paragraph (replace this with your text)
+This cheat sheet/guide is a useful tool that you can reference while coding. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This cheat sheet/guide will cover everything from Anchors to Flags and more! 
+
+Regex (also known as Regular Expressions) can really come in handy when dealing with text such as searching through forms to make sure email addresses are formatted correct. As an example, here is the regex for that -  `/[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/igm` 
 
 ## Table of Contents
 
