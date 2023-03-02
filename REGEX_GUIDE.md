@@ -104,10 +104,10 @@ BACK-REFERENCES, refer back to previously captured groups within the same patter
 
 ### Look-ahead and Look-behind
 
-LOOK-AHEAD and LOOK-BEHIND allow you to specify a pattern that must match immediately before or after the current position, without including the matched text in the final result. 
+LOOK-AHEAD and LOOK-BEHIND allow you to specify a pattern that must match before or after the current position, without including it in the final result. 
 
 ## Author
 
-My name is Alex Hall. I wrote this guide as part of the UW CODING BOOTCAMP COURSE in hopes to better understand REGEX myself as well as to help others better understand it. 
+My name is Alex Hall. I wrote this guide as part of the UW CODING BOOTCAMP COURSE in hopes of better understanding REGEX myself as well as helping others better understand it. 
 
 https://github.com/alexh3422
