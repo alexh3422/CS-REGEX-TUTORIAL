@@ -74,7 +74,14 @@ EXAMPLE: i flag - /dog/i will make the search for the word dog, case-insensitive
 
 ### Grouping and Capturing
 
+GROUPING and CAPTURING are important features in regex that allow you to group multiple characters or sub-patterns into a single unit using parentheses. 
+
+Capturing groups are used to extract a specific part of a match and save it in a numbered group for later use. These features can help you create more complex regular expressions and extract useful information from text.
+
+
 ### Bracket Expressions
+
+
 
 ### Greedy and Lazy Match
 
