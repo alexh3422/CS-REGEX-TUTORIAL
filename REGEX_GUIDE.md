@@ -46,15 +46,31 @@ OPERATORS are used to build more complex patterns by combining simpler ones. The
 
 The alternation operator allows you to match either one pattern or another. For example, if you want to match either "dog" or "cat", you can use the regular expression "(dog|cat)".
 
-The grouping operator "()" allows you to group multiple characters or patterns as a single unit, so that you can apply a quantifier or an operator to the entire group. For example, if you want to match zero or more occurrences of the sequence "abc", you can use the regular expression "(abc)*".
+The grouping operator "()" allows you to group multiple characters or patterns as a single unit, so that you can apply a quantifier or an operator to the entire group. 
+
+EXAMPLE: if you want to match zero or more occurrences of the sequence "abc", you can use the regular expression "(abc)*".
 
 By using these operators, you can create more powerful regular expressions that can match a wider range of patterns.
 
 ### Character Classes
 
+CHARACTER CLASSES allow you to search and match any one of a certain set of characters. They are enclosed in square brackets "[ ]", and the characters you place in between those brackets will be your search values.
+
+EXAMPLE: [aeiou] matches any one of the vowels a, e, i ,o, u. 
+This can also be done with numbers, [1234] will match any of the numbers 1, 2, 3, 4. 
+
+You can also use a "-" to create a range. 
+EXAMPLE: [a-f] will match any one of the letters a through b (note that this is case sensitive, so [A-F] will match any of the capital letters A through F)
+
 
 
 ### Flags
+
+FLAGS modify the matching process. They're added at the end of a regular expression, and are represented by the letters "i", "g", and "m".
+
+The "i" flag is for case-insensitivity, the "g" flag is for global matching, and "m" flag is for multiline matching. These flags allow you to customize your regex so that you can match a wider range of text.
+
+EXAMPLE: i flag - /dog/i will make the search for the word dog, case-insensitive. 
 
 ### Grouping and Capturing
 
