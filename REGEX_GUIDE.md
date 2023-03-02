@@ -96,10 +96,18 @@ EXAMPLE:  the regular expression /a.+?c/ would match only the substring "ABC", a
 
 ### Boundaries
 
+BOUNDARIES are used to match specific positions in a string, rather than specific characters. There are several types of boundaries, such as word boundaries (\b), the start of the string (^), end of the string ($), the start of the line (^ with the m flag), and the end of the line ($ with the m flag). Using boundaries in regular expressions allows for more precise matches in text that follows a specific pattern.
+
 ### Back-references
+
+BACK-REFERENCES, refer back to previously captured groups within the same pattern using syntax like \1, \2, etc. They are used to match repeating patterns or create more complex patterns that depend on earlier matches. Backreferences can help validate input, extract data from text, or search for repeated patterns, but should be used sparingly to avoid making regular expressions harder to understand.
 
 ### Look-ahead and Look-behind
 
+LOOK-AHEAD and LOOK-BEHIND allow you to specify a pattern that must match immediately before or after the current position, without including the matched text in the final result. 
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Alex Hall. I wrote this guide as part of the UW CODING BOOTCAMP COURSE in hopes to better understand REGEX myself as well as to help others better understand it. 
+
+https://github.com/alexh3422
