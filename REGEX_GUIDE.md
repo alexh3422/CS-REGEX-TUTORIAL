@@ -81,7 +81,7 @@ Capturing groups are used to extract a specific part of a match and save it in a
 
 ### Bracket Expressions
 
-
+Bracket expressions, which are also known as character classes, match any single character from a set of characters. They are created using square brackets [ ], including any combination of characters, ranges, and predefined character classes. 
 
 ### Greedy and Lazy Match
 
