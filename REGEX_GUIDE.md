@@ -28,27 +28,27 @@ Regex (also known as Regular Expressions) can really come in handy when dealing 
 
 ANCHORS are special characters that are used to match patterns at specific positions in the input string. 
 
-The two most common ANCHORS are the caret " ^ " and the dollar sign " $ ". The caret matches the start of a string, and the dollar sign matches the end of a string. 
+The two most common ANCHORS are the caret `^` and the dollar sign `$` . The caret matches the start of a string, and the dollar sign matches the end of a string. 
 
-EXAMPLE: the regex pattern "^hello" will match any string that starts with "hello", while the pattern "world$" will match any string that ends with "world". 
+EXAMPLE: the regex pattern `^hello` will match any string that starts with "hello", while the pattern `world$` will match any string that ends with "world". 
 
 ### Quantifiers
 
 QUANTIFIERS are special characters that can specify how many times a character (or character group) can be matched in a string. 
 
-The asterisk "", the plus sign "+", and the question mark "?" are some of the most common QUANTIFIERS The asterisk will match zero or more occurrences of the preceding character or group, while the plus sign will match one or more occurrences. The question mark will match zero or one occurrence. 
+The asterisk `""`, the plus sign `+`, and the question mark `?` are some of the most common QUANTIFIERS The asterisk will match zero or more occurrences of the preceding character or group, while the plus sign will match one or more occurrences. The question mark will match zero or one occurrence. 
 
-EXAMPLE: "ab" will match any string that has zero or more letter "a"s that are followed by a letter "b"
+EXAMPLE: `"ab"` will match any string that has zero or more of the letter a that are followed by the letter b
 
 ### OR Operator
 
-OPERATORS are used to build more complex patterns by combining simpler ones. The two most common operators are the alternation operator "|", and the grouping operator "()".
+OPERATORS are used to build more complex patterns by combining simpler ones. The two most common operators are the alternation operator `|`, and the grouping operator `()`.
 
 The alternation operator allows you to match either one pattern or another. For example, if you want to match either "dog" or "cat", you can use the regular expression "(dog|cat)".
 
-The grouping operator "()" allows you to group multiple characters or patterns as a single unit, so that you can apply a quantifier or an operator to the entire group. 
+The grouping operator `()` allows you to group multiple characters or patterns as a single unit, so that you can apply a quantifier or an operator to the entire group. 
 
-EXAMPLE: if you want to match zero or more occurrences of the sequence "abc", you can use the regular expression "(abc)*".
+EXAMPLE: if you want to match zero or more occurrences of the sequence "abc", you can use the regular expression `abc)*`.
 
 By using these operators, you can create more powerful regular expressions that can match a wider range of patterns.
 
